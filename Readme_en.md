@@ -1,6 +1,6 @@
 # Python ASCII Video Player
 
-[中文](./readme.md) [English](./readme_en.md)
+[中文](./Readme.md) [English](./Readme_en.md)
 
 Due to Python's relatively low execution efficiency and the limitations of `print()` for console output, many assume that Python cannot produce dynamic ASCII art videos—a view that is overly pessimistic. In fact, Python’s performance potential is far greater than commonly imagined. By replacing `print()` with `sys.stdout`, console output speed can reach impressive levels. Combined with JIT compilation techniques to optimize loop performance, it becomes straightforward to achieve frame rates of 60 FPS or higher under standard terminal character sizes. Even when reducing font size (increasing the number of characters displayed per line), the playback can typically maintain around 24 FPS on most systems.
 

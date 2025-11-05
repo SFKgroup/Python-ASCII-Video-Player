@@ -1,6 +1,6 @@
 # Python ASCII Video Player
 
-[中文](./readme.md) [English](./readme_en.md)
+[中文](./Readme.md) [English](./Readme_en.md)
 
 鉴于Python低下的运行效率和`print()`控制台输出的局限，人们往往认为Python无法制作动态的ASCII Art图像，这是过分悲观的。事实上Python速率的潜力原比想象的大得多，使用`sys.stdout`代替`print`就能使得控制台输出速率达到可观的地步，配合上JIT技术优化循环速率可以能够轻松地在传统控制台字符大小的情况下使得帧率达到60FPS甚至更多，即使缩小字号(增大一行显示的字符数)也能够在大部分情况下保持24FPS。
 
